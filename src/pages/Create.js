@@ -5,6 +5,7 @@ const Create = () => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("mario");
+  const [time, setTime] = useState(new Date().toString());
   const [isPending, setIsPending] = useState(false);
   const navigate = useNavigate();
   // const debounceTitle = useRef(debounceOnChange(500)).current;
@@ -12,7 +13,8 @@ const Create = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const blog = { title, body, author };
+    setTime(new Date().toString());
+    const blog = { title, body, author, time };
 
     setIsPending(true);
 

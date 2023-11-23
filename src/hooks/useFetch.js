@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-// set up json server: npx json-server --watch data/db.json --port 8000
+// set up json server: c
 // http://localhost:8000/blogs
 // custom hook must name as useSmthing
 const useFetch = (url) => {

@@ -1,21 +1,31 @@
 {
   "blogs": [
     {
-      "title": "My new website",
-      "body": "lorem ipsum...",
+      "title": ":D",
+      "body": "Hello World!",
       "author": "mario",
+      "time": "Thu Nov 02 2023 20:48:45 GMT-0400 (Eastern Daylight Time)",
       "id": 1
     },
     {
-      "title": "Welcome party!",
-      "body": "lorem ipsum...",
-      "author": "yoshi",
+      "title": ">:O",
+      "body": "hey",
+      "author": "mario",
+      "time": "Thu Nov 02 2023 20:49:16 GMT-0400 (Eastern Daylight Time)",
       "id": 2
     },
     {
-      "title": ":D",
-      "body": "hi!!!!",
+      "title": "0_0",
+      "body": "huh?",
+      "author": "yoshi",
+      "time": "Thu Nov 02 2023 20:49:29 GMT-0400 (Eastern Daylight Time)",
+      "id": 3
+    },
+    {
+      "title": ">:)",
+      "body": "aha",
       "author": "mario",
+      "time": "Thu Nov 02 2023 20:53:41 GMT-0400 (Eastern Daylight Time)",
       "id": 4
     }
   ]
